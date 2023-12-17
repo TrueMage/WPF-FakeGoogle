@@ -22,20 +22,22 @@
         </DockPanel>
         
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Label Foreground="White" FontSize="100px" FontFamily="Calibri">Google</Label>
-
-            <TextBox Background="{x:Null}" Foreground="White" FontSize="22">
-                <TextBox.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="CornerRadius" Value="3"/>
-                    </Style>
-                </TextBox.Resources>
-            </TextBox>
-            <Image Source="../img/mike.png" Width="50" Height="50"></Image>
-
+            <Label Foreground="White" FontSize="100px" FontFamily="Calibri" HorizontalAlignment="Center">Google</Label>
+            <DockPanel>
+                <TextBox Background="{x:Null}" Foreground="White" Width = "300" FontSize="22">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+                <Image Source="img/board.png" Width="25" Height="25" Margin="10 0"/>
+                <Image Source="img/mike.png" Width="25" Height="25"/>
+                <Image Source="img/camera.png" Width="25" Height="25" Margin="10 0"/>
+            </DockPanel>
             <DockPanel HorizontalAlignment="Center" Height="50">
-                <Button Width="100px" Height="35px">Поиск в Google</Button>
-                <Button Width="100px" Height="35px" Margin="10 0">Мне повезёт!</Button>
+                <Button Foreground="White" Background="#2D2D30" Width="100px" Height="35px" BorderBrush="{x:Null}">Поиск в Google</Button>
+                <Button Foreground="White" Background="#2D2D30" Width="100px" Height="35px" Margin="10 0" BorderBrush="{x:Null}">Мне повезёт!</Button>
             </DockPanel>
         </StackPanel>
         <DockPanel Grid.Row="2" Background="#2D2D30">
