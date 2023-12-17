@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-FakeGoogle", "WPF-FakeGoogle.csproj", "{48AC4609-8687-49A3-B091-4EE002AAEC3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AC4609-8687-49A3-B091-4EE002AAEC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AC4609-8687-49A3-B091-4EE002AAEC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AC4609-8687-49A3-B091-4EE002AAEC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AC4609-8687-49A3-B091-4EE002AAEC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D0A54D-DE5C-4963-8F1A-6561F0D717C9}
+	EndGlobalSection
+EndGlobal
